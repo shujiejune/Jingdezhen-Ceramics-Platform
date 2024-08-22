@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jingdezhen Ceramics</title>
+    <link href="./css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header-wrapper">
+        <div class="header">
+            <a title="Home" href="/en-US">
+                <div class="logo">
+                    <span class="logo-text"><strong>Jingdezhen Ceramics</strong></span>
+                </div>
+            </a>
+            <!--
+            <div class="top-navigation-wrap">
+                <a href="/en-US" class="logo" aria-label="MDN homepage">
+                    <svg id="mdn-docs-logo" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 694.9 104.4"
+                        style="enable-background:new 0 0 694.9 104.4" xml:space="preserve" role="img">
+                        <title>Jingdezhen Ceramics</title>
+                        <path
+                            d="M40.3 0 11.7 92.1H0L28.5 0h11.8zm10.4 0v92.1H40.3V0h10.4zM91 0 62.5 92.1H50.8L79.3 0H91zm10.4 0v92.1H91V0h10.4z"
+                            class="logo-m">
+                        </path>
+                        <path d="M627.9 95.6h67v8.8h-67v-8.8z" class="logo-_"></path>
+                        <path
+                            d="M367 42h-4l-10.7 30.8h-5.5l-10.8-26h-.4l-10.5 26h-5.2L308.7 42h-3.8v-5.6H323V42h-6.5l6.8 20.4h.4l10.3-26h4.7l11.2 26h.5l5.7-20.3h-6.2v-5.6H367V42zm34.9 20c-.4 3.2-2 5.9-4.7 8.2-2.8 2.3-6.5 3.4-11.3 3.4-5.4 0-9.7-1.6-13.1-4.7-3.3-3.2-5-7.7-5-13.7 0-5.7 1.6-10.3 4.7-14s7.4-5.5 12.9-5.5c5.1 0 9.1 1.6 11.9 4.7s4.3 6.9 4.3 11.3c0 1.5-.2 3-.5 4.7h-25.6c.3 7.7 4 11.6 10.9 11.6 2.9 0 5.1-.7 6.5-2 1.5-1.4 2.5-3 3-4.9l6 .9zM394 51.3c.2-2.4-.4-4.7-1.8-6.9s-3.8-3.3-7-3.3c-3.1 0-5.3 1-6.9 3-1.5 2-2.5 4.4-2.8 7.2H394zm51 2.4c0 5-1.3 9.5-4 13.7s-6.9 6.2-12.7 6.2c-6 0-10.3-2.2-12.7-6.7-.1.4-.2 1.4-.4 2.9s-.3 2.5-.4 2.9h-7.3c.3-1.7.6-3.5.8-5.3.3-1.8.4-3.7.4-5.5V22.3h-6v-5.6H416v27c1.1-2.2 2.7-4.1 4.7-5.7 2-1.6 4.8-2.4 8.4-2.4 4.6 0 8.4 1.6 11.4 4.7 3 3.2 4.5 7.6 4.5 13.4zm-7.7.6c0-4.2-1-7.4-3-9.5-2-2.2-4.4-3.3-7.4-3.3-3.4 0-6 1.2-8 3.7-1.9 2.4-2.9 5-3 7.7V57c0 3 1 5.6 3 7.7s4.5 3.1 7.6 3.1c3.6 0 6.3-1.3 8.1-3.9 1.8-2.7 2.7-5.9 2.7-9.6zm69.2 18.5h-13.2v-7.2c-1.2 2.2-2.8 4.1-4.9 5.6-2.1 1.6-4.8 2.4-8.3 2.4-4.8 0-8.7-1.6-11.6-4.9-2.9-3.2-4.3-7.7-4.3-13.3 0-5 1.3-9.6 4-13.7 2.6-4.1 6.9-6.2 12.8-6.2 5.7 0 9.8 2.2 12.3 6.5V22.3h-8.6v-5.6h15.8v50.6h6v5.5zM493.2 56v-4.4c-.1-3-1.2-5.5-3.2-7.3s-4.4-2.8-7.2-2.8c-3.6 0-6.3 1.3-8.2 3.9-1.9 2.6-2.8 5.8-2.8 9.6 0 4.1 1 7.3 3 9.5s4.5 3.3 7.4 3.3c3.2 0 5.8-1.3 7.8-3.8 2.1-2.6 3.1-5.3 3.2-8zm53.1-1.4c0 5.6-1.8 10.2-5.3 13.7s-8.2 5.3-13.9 5.3-10.1-1.7-13.4-5.1c-3.3-3.4-5-7.9-5-13.5 0-5.3 1.6-9.9 4.7-13.7 3.2-3.8 7.9-5.7 14.2-5.7s11 1.9 14.1 5.7c3 3.7 4.6 8.1 4.6 13.3zm-7.7-.2c0-4-1-7.2-3-9.5s-4.8-3.5-8.2-3.5c-3.6 0-6.4 1.2-8.3 3.7s-2.9 5.6-2.9 9.5c0 3.7.9 6.8 2.8 9.4 1.9 2.6 4.6 3.9 8.3 3.9 3.6 0 6.4-1.3 8.4-3.8 1.9-2.6 2.9-5.8 2.9-9.7zm45 5.8c-.4 3.2-1.9 6.3-4.4 9.1-2.5 2.9-6.4 4.3-11.8 4.3-5.2 0-9.4-1.6-12.6-4.8-3.2-3.2-4.8-7.7-4.8-13.7 0-5.5 1.6-10.1 4.7-13.9 3.2-3.8 7.6-5.7 13.2-5.7 2.3 0 4.6.3 6.7.8 2.2.5 4.2 1.5 6.2 2.9l1.5 9.5-5.9.7-1.3-6.1c-2.1-1.2-4.5-1.8-7.2-1.8-3.5 0-6.1 1.2-7.7 3.7-1.7 2.5-2.5 5.7-2.5 9.6 0 4.1.9 7.3 2.7 9.5 1.8 2.3 4.4 3.4 7.8 3.4 5.2 0 8.2-2.9 9.2-8.8l6.2 1.3zm34.7 1.9c0 3.6-1.5 6.5-4.6 8.5s-7 3-11.7 3c-5.7 0-10.6-1.2-14.6-3.6l1.2-8.8 5.7.6-.2 4.7c1.1.5 2.3.9 3.6 1.1s2.6.3 3.9.3c2.4 0 4.5-.4 6.5-1.3 1.9-.9 2.9-2.2 2.9-4.1 0-1.8-.8-3.1-2.3-3.8s-3.5-1.3-5.8-1.7-4.6-.9-6.9-1.4c-2.3-.6-4.2-1.6-5.7-2.9-1.6-1.4-2.3-3.5-2.3-6.3 0-4.1 1.5-6.9 4.6-8.5s6.4-2.4 9.9-2.4c2.6 0 5 .3 7.2.9 2.2.6 4.3 1.4 6.1 2.4l.8 8.8-5.8.7-.8-5.7c-2.3-1-4.7-1.6-7.2-1.6-2.1 0-3.7.4-5.1 1.1-1.3.8-2 2-2 3.8 0 1.7.8 2.9 2.3 3.6 1.5.7 3.4 1.2 5.7 1.6 2.2.4 4.5.8 6.7 1.4 2.2.6 4.1 1.6 5.7 3 1.4 1.6 2.2 3.7 2.2 6.6zM197.6 73.2h-17.1v-5.5h3.8V51.9c0-3.7-.7-6.3-2.1-7.9-1.4-1.6-3.3-2.3-5.7-2.3-3.2 0-5.6 1.1-7.2 3.4s-2.4 4.6-2.5 6.9v15.6h6v5.5h-17.1v-5.5h3.8V51.9c0-3.8-.7-6.4-2.1-7.9-1.4-1.5-3.3-2.3-5.6-2.3-3.2 0-5.5 1.1-7.2 3.3-1.6 2.2-2.4 4.5-2.5 6.9v15.8h6.9v5.5h-20.2v-5.5h6V42.4h-6.1v-5.6h13.4v6.4c1.2-2.1 2.7-3.8 4.7-5.2 2-1.3 4.4-2 7.3-2s5.3.7 7.5 2.1c2.2 1.4 3.7 3.5 4.5 6.4 1.1-2.5 2.7-4.5 4.9-6.1s4.8-2.4 7.9-2.4c3.5 0 6.5 1.1 8.9 3.3s3.7 5.6 3.7 10.2v18.2h6.1v5.5zm42.5 0h-13.2V66c-1.2 2.2-2.8 4.1-4.9 5.6-2.1 1.6-4.8 2.4-8.3 2.4-4.8 0-8.7-1.6-11.6-4.9-2.9-3.2-4.3-7.7-4.3-13.3 0-5 1.3-9.6 4-13.7 2.6-4.1 6.9-6.2 12.8-6.2s9.8 2.2 12.3 6.5V22.7h-8.6v-5.6h15.8v50.6h6v5.5zm-13.3-16.8V52c-.1-3-1.2-5.5-3.2-7.3s-4.4-2.8-7.2-2.8c-3.6 0-6.3 1.3-8.2 3.9-1.9 2.6-2.8 5.8-2.8 9.6 0 4.1 1 7.3 3 9.5s4.5 3.3 7.4 3.3c3.2 0 5.8-1.3 7.8-3.8 2.1-2.6 3.1-5.3 3.2-8zm61.5 16.8H269v-5.5h6V51.9c0-3.7-.7-6.3-2.2-7.9-1.4-1.6-3.4-2.3-5.7-2.3-3.1 0-5.6 1-7.4 3s-2.8 4.4-2.9 7v15.9h6v5.5h-19.3v-5.5h6V42.4h-6.2v-5.6h13.6V43c2.6-4.6 6.8-6.9 12.7-6.9 3.6 0 6.7 1.1 9.2 3.3s3.7 5.6 3.7 10.2v18.2h6v5.4h-.2z"
+                            class="logo-text">
+                        </path>
+                    </svg>
+                </a>
+                <button title="Open main menu" type="button"
+                    class="button action has-icon main-menu-toggle" aria-haspopup="menu" aria-label="Open main menu"
+                    aria-expanded="false">
+                    <span class="button-wrap">
+                        <span class="icon icon-menu "></span>
+                        <span class="visually-hidden">Open main menu</span>
+                    </span>
+                </button>
+            </div>
+            -->
+            <div class="mega-nav-items">
+                <nav>
+                    <a href="https://help.figma.com/hc/categories/360002051613-Get-started"
+                        class="body body-regular">About</a>
+                    <a href="https://help.figma.com/hc/categories/360002051613-Get-started"
+                        class="body body-regular">Ceramicstory</a>
+                    <a href="https://help.figma.com/hc/categories/360002051613-Get-started"
+                        class="body body-regular">Gallery</a>
+                    <button id="MenuResources" class="body body-regular"
+                        aria-label="Click to open local festival, fair and museums menu">
+                        Engage
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.9126 13.8365L7.99951 9.92348L8.92299 9L12.3743 12.4526L15.8256 9L16.7491 9.92348L12.836 13.8365L12.3743 14.297L11.9126 13.8365Z"
+                                fill="black" fill-opacity="0.9" />
+                        </svg>
+                    </button>
+                    <button id="MenuCourses" class="body body-regular"
+                        aria-label="Click to open course and seminar menu">
+                        Learn
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M11.9126 13.8365L7.99951 9.92348L8.92299 9L12.3743 12.4526L15.8256 9L16.7491 9.92348L12.836 13.8365L12.3743 14.297L11.9126 13.8365Z"
+                                fill="black" fill-opacity="0.9" />
+                        </svg>
+                    </button>
+                    <a href="https://help.figma.com/hc/categories/360002051613-Get-started"
+                        class="body body-regular">Portfolio</a>
+                    <a href="https://help.figma.com/hc/categories/360002051613-Get-started"
+                        class="body body-regular">Contact</a>
+                </nav>
+            </div>
+            <div class="header-signup-wrapper">
+                <div class="languages-switcher-menu">
+                    <div class="header-languages-switch">
+                        <img src="/images/icon-language.svg" alt="Language icon" width="24" height="24">
+                        English (US)
+                    </div>
+                    <div class="hidden">
+                        <ul class="submenu language-menu" aria-labelledby="language-menu-button">
+                            <li class=" "><a data-locale="zh-CN" href="/zh-CN/docs/Web/CSS/outline"
+                                    class="button submenu-item"><span>中文 (简体)</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- direct to sign up / log in panel -->
+                <div class="signup-button">
+                    <a class="header-signup" href="https://www.figma.com/zendesk/sso?locale=en-us">Sign up</a>
+                </div>
+            </div>
+        </div>
+        <div class="mega-nav-menu">
+            <div class="mega-nav-content-wrapper">
+                <div class="content-desktop">
+                    <section id="MenuResources">
+                        <div class="nav-list-category nav-list-size-9">
+                            <div class="nav-list-items">
+                                <a href="https://help.figma.com/hc/sections/23691657321239"
+                                    class="nav-list nav-list-size-3">
+                                    <div class="nav-list-title">
+                                        <div class="nav-title-tag">
+                                            <p class="body body-medium-bold">Cultural Festival</p>
+                                        </div>
+                                    </div>
+                                    <p class="body body-regular">Level up your Figma skills with these comprehensive
+                                        skill-based courses.</p>
+                                </a>
+                                <a href="https://help.figma.com/hc/sections/13148624530967"
+                                    class="nav-list nav-list-size-3">
+                                    <div class="nav-list-title">
+                                        <div class="nav-title-tag">
+                                            <p class="body body-medium-bold">Fair</p>
+                                        </div>
+                                    </div>
+                                    <p class="body body-regular">Get hands-on experience in Figma with these practical
+                                        bite-sized projects.</p>
+                                </a>
+                                <a href="https://help.figma.com/hc/sections/13148624530967"
+                                    class="nav-list nav-list-size-3">
+                                    <div class="nav-list-title">
+                                        <div class="nav-title-tag">
+                                            <p class="body body-medium-bold">Museum</p>
+                                        </div>
+                                    </div>
+                                    <p class="body body-regular">Explore tools and features by watching and following
+                                        along with these expert-led video tutorials.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="MenuCourses">
+                        <div class="nav-list-category nav-list-size-6">
+                            <div class="nav-list-items">
+                                <a href="https://help.figma.com/hc/sections/23691657321239"
+                                    class="nav-list nav-list-size-3">
+                                    <div class="nav-list-title">
+                                        <div class="nav-title-tag">
+                                            <p class="body body-medium-bold">Course</p>
+                                        </div>
+                                    </div>
+                                    <p class="body body-regular">Level up your Figma skills with these comprehensive
+                                        skill-based courses.</p>
+                                </a>
+                                <a href="https://help.figma.com/hc/sections/13148624530967"
+                                    class="nav-list nav-list-size-3">
+                                    <div class="nav-list-title">
+                                        <div class="nav-title-tag">
+                                            <p class="body body-medium-bold">Seminar</p>
+                                        </div>
+                                    </div>
+                                    <p class="body body-regular">Get hands-on experience in Figma with these practical
+                                        bite-sized projects.</p>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="content-mobile">
+                    <nav id="MenuMobileContent" class="active">
+                        <a href="https://help.figma.com/hc/categories/360002051613-Get-started"
+                            class="body body-medium">About</a>
+                        <a href="https://help.figma.com/hc/categories/360002051613-Get-started"
+                            class="body body-medium">Ceramicstory</a>
+                        <a href="https://help.figma.com/hc/categories/360002051613-Get-started"
+                            class="body body-medium">Gallery</a>
+                        <div class="body body-medium">
+                            <button id="MenuMobileProduct" class="">Engage</button>
+                            <div id="MenuMobileProduct" class="body body-regular">
+                                <div class="mobile-nav-list">
+                                    <a href="https://help.figma.com/hc/categories/360002042553">Cultural festivals</a>
+                                    <a href="https://help.figma.com/hc/sections/15023066873239">Fair</a>
+                                    <a href="https://help.figma.com/hc/categories/360002051633">Museum</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body body-medium">
+                            <button id="MenuMobileCourses">Learn</button>
+                            <div id="MenuMobileCourses" class="body body-regular">
+                                <div class="mobile-nav-list">
+                                    <a href="https://help.figma.com/hc/sections/23691657321239">Course</a>
+                                    <a href="https://help.figma.com/hc/sections/13148624530967">Seminar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="https://help.figma.com/hc/categories/360002051613-Get-started"
+                            class="body body-medium">Portfolio</a>
+                        <a href="https://help.figma.com/hc/categories/360002051613-Get-started"
+                            class="body body-medium">Contact</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main role="main" style="margin-top: 0px;">
+        <!-- Screen 1 -->
+        <section class="block block-get-started">
+            <div class="block-inner">
+                <div class="block-get-started-image">
+                    <img src="/images/about/first-look.png" alt="a Fencai bowl">
+                </div>
+                <div class="block-get-started-content-container">
+                    <span class="body body-eyebrow">Let's learn</span>
+                    <h1 class="display display-large">
+                        Welcome to Jingdezhen Ceramics
+                    </h1>
+                    <p class="body body-hero">Start your learning journey with beginner-friendly resources that will
+                        have you creating in no time.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Screen 2: Introduction to Ceramicstory -->
+        <section class="block block-brand-navy">
+            <div class="block-inner">
+                <div class="block-content-container-full">
+                    <h1 class="display display-medium">
+                        Trace the transition of ceramics in ancient China
+                    </h1>
+                    <p class="body body-medium">
+                        Have fun with one anecdote of one renowned, representative ceramic artwork in one era.
+                    </p>
+                    <a class="button button-invert" href="/ceramicstory">Explore ↗</a>
+                </div>
+                <div class="block-content-container-full">
+                    <img class="block-featured-image" src="/images/about/ceramicstory-intro.png"
+                        alt="hexagonal curioshelves showcasing ceramic artworks in different eras.">
+                </div>
+            </div>
+        </section>
+        <!-- Screen 3: Abstract of 4 types of famous porcelain -->
+        <section class="block">
+            <div class="block-inner">
+                <div class="block-content-container-single">
+                    <div class="block-content-header">
+                        <h1 class="display display-medium">Jingdezhen: modern ceramic art flourishing</h1>
+                        <p class="body body-medium">
+                            Appreciate the four featured branches of ceramic artworks named after their decoration
+                            styles, distinguished by the glazing techniques and firing process, thriving in
+                            Jingdezhen with craftsmanship and creativity of a galaxy of contempoaray artists.
+                        </p>
+                    </div>
+                    <!-- add relationship between these 4 types of porcelain and Jingdezhen -->
+                    <div class="block-content-flexible-grid">
+                        <fl-resource-column title="Blue-and-white" description="White pottery and porcelain with 
+                        underglaze blue painting. In China, a most commonly used style of decoration is based on 
+                        sinuous plant forms spreading across the object." descripton-no-limit link="/gallery/blue-
+                        and-white" link-text="View the gallery" image="/images/about/QingHua.png" alt="a blue-and-
+                        white brush pot">
+                            <div class="resource-column-thumbnail thumbnail-aspect-square">
+                                <img src="/images/about/QingHua.png" alt="a blue-and-white brush pot">
+                            </div>
+                            <div class="resource-column-description-no-limit">
+                                <h4 class="display display-small">Blue-and-white</h4>
+                                <p class="body body-small">
+                                    White pottery and porcelain with underglaze blue painting. In China, a most
+                                    commonly used style of decoration is based on sinuous plant forms spreading
+                                    across the object.
+                                </p>
+                                <a href="/gallery/blue-and-white" class="link">View the gallery</a>
+                            </div>
+                        </fl-resource-column>
+                        <fl-resource-column title="Famille jaune, noire, rose, verte" description="Porcelain 
+                        categorized by the overglaze colored enamel. A range of soft color palette are used in 
+                        these wares." descripton-no-limit link="/gallery/famille-rose" link-text="View the gallery"
+                            image="/images/about/FenCai.png" alt="a famille jaune round tabletop">
+                            <div class="resource-column-thumbnail thumbnail-aspect-square">
+                                <img src="/images/about/FenCai.png" alt="a famille jaune round tabletop">
+                            </div>
+                            <div class="resource-column-description-no-limit">
+                                <h4 class="display display-small">Famille jaune, noire, rose, verte</h4>
+                                <p class="body body-small">
+                                    Porcelain categorized by the overglaze colored enamel. A range of soft color
+                                    palette are used in these wares.
+                                </p>
+                                <a href="/gallery/famille-rose" class="link">View the gallery</a>
+                            </div>
+                        </fl-resource-column>
+                    </div>
+                    <div class="block-content-flexible-grid">
+                        <fl-resource-column title="Rice-pattern" description="Porcelain decorated with translucent 
+                        rice-shape patterns. The rice-patterns are formed by hollowing out the ware on the sidewall 
+                        and filling the holes with special glaze." descripton-no-limit link="/gallery/rice-
+                        pattern" link-text="View the gallery" image="/images/about/LingLong.png" alt="a rice-
+                        pattern bowl">
+                            <div class="resource-column-thumbnail thumbnail-aspect-square">
+                                <img src="/images/about/LingLong.png" alt="a rice-pattern bowl">
+                            </div>
+                            <div class="resource-column-description-no-limit">
+                                <h4 class="display display-small">Rice-pattern</h4>
+                                <p class="body body-small">
+                                    Porcelain decorated with translucent rice-shape patterns. The rice-patterns
+                                    are formed by hollowing out the ware on the sidewall and filling the holes with
+                                    special glaze.
+                                </p>
+                                <a href="/gallery/rice-pattern" class="link">View the gallery</a>
+                            </div>
+                        </fl-resource-column>
+                        <fl-resource-column title="Colored glaze" description="Porcelain 
+                        categorized by the overglaze colored enamel. A range of soft color palette are used in 
+                        these wares." descripton-no-limit link="/gallery/colored-glaze" link-text="View the gallery"
+                            image="/images/about/YanSeYou.png" alt="a carminum bowl">
+                            <div class="resource-column-thumbnail thumbnail-aspect-square">
+                                <img src="/images/about/YanSeYou.png" alt="a carminum bowl">
+                            </div>
+                            <div class="resource-column-description-no-limit">
+                                <h4 class="display display-small">Colored glaze</h4>
+                                <p class="body body-small">
+                                    Decoration of the main body of the ware is done in color. Craftsmen compound
+                                    multiple minerals into the glaze, and control the fire to lay gorgeous palette
+                                    on ceramics.
+                                </p>
+                                <a href="/gallery/colored-glaze" class="link">View the gallery</a>
+                            </div>
+                        </fl-resource-column>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Screen 4: Introduction to engagement resources in Jingdezhen -->
+        <section class="block">
+            <div class="block-inner">
+                <div class="block-content-container-single">
+                    <div class="block-content-header">
+                        <h1 class="display display-medium">Meet ceramic crafts in-person</h1>
+                        <p class="body body-medium">
+                            Dive into local ceramic events in Jingdezhen. Experience how ceramics glow the daily life.
+                        </p>
+                    </div>
+                    <div class="block-content-flexible-grid">
+                        <fl-resource-column title="Ceramic Carnival" description="Introduction to ceramic carnivals in 
+                        Jingdezhen." descripton-no-limit link="/engage/carnival" link-text="Details" image="/images/
+                        about/carnival.png" alt="people in a ceramic art carnival exhibition">
+                            <div class="resource-column-thumbnail thumbnail-aspect-square">
+                                <img src="/images/about/carnival.png" alt="people in a ceramic art carnival exhibition">
+                            </div>
+                            <div class="resource-column-description-no-limit">
+                                <h4 class="display display-small">Ceramic Carnival</h4>
+                                <p class="body body-small">
+                                    Introduction to ceramic carnivals in Jingdezhen. Introduction to ceramic carnivals
+                                    in Jingdezhen. Introduction to ceramic carnivals in Jingdezhen.
+                                </p>
+                                <a href="/engage/carnival" class="link">Details</a>
+                            </div>
+                        </fl-resource-column>
+                        <fl-resource-column title="Ceramic Fair"
+                            description="Introduction to ceramic fairs in Jingdezhen." descripton-no-limit
+                            link="/engage/fair" link-text="Details" image="/images/about/fair.png"
+                            alt="a distant view of ceramic fair in Taoxichuan">
+                            <div class="resource-column-thumbnail thumbnail-aspect-square">
+                                <img src="/images/about/fair.png" alt="a distant view of ceramic fair in Taoxichuan">
+                            </div>
+                            <div class="resource-column-description-no-limit">
+                                <h4 class="display display-small">Ceramic Fair</h4>
+                                <p class="body body-small">
+                                    Introduction to ceramic fairs in Jingdezhen. Introduction to ceramic fairs in
+                                    Jingdezhen.
+                                    Introduction to ceramic fairs in Jingdezhen.
+                                </p>
+                                <a href="/engage/fair" class="link">Details</a>
+                            </div>
+                        </fl-resource-column>
+                        <fl-resource-column title="Museum"
+                            description="Resources of ceramic-related museums in Jingdezhen." descripton-no-limit
+                            link="/engage/museum" link-text="Details" image="/images/about/museum.png"
+                            alt="a woman visiting ceramic artworks in the museum">
+                            <div class="resource-column-thumbnail thumbnail-aspect-square">
+                                <img src="/images/about/museum.png"
+                                    alt="a woman visiting ceramic artworks in the museum">
+                            </div>
+                            <div class="resource-column-description-no-limit">
+                                <h4 class="display display-small">Museum</h4>
+                                <p class="body body-small">
+                                    Resources of ceramic-related museums in Jingdezhen. Resources of ceramic-related
+                                    museums
+                                    in Jingdezhen. Resources of ceramic-related museums in Jingdezhen.
+                                </p>
+                                <a href="/engage/museum" class="link">Details</a>
+                            </div>
+                        </fl-resource-column>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Screen 5: Learn -->
+        <section class="block block-brand-navy">
+            <div class="block-inner">
+                <div class="block-content-container-full">
+                    <h1 class="display display-medium">Learn everything about ceramics</h1>
+                    <p class="body body-medium">Thorough curriculum heading to create ceramic artworks on your own.</p>
+                    <a class="button button-invert" href="/learn/curriculum">Enroll ↗</a>
+                </div>
+                <div class="block-content-container-full">
+                    <img class="block-featured-image" src="/images/about/learn.png"
+                        alt="Jingdezhen Ceramics learning page">
+                </div>
+            </div>
+        </section>
+        <!-- Screen 6: Students' Portfolio -->
+        <section class="block block-brand-beige">
+            <div class="block-inner">
+                <div class="block-content-container-single">
+                    <div class="block-content-header">
+                        <h1 class="display display-medium">Learning outcome showcase</h1>
+                        <p class="body body-medium">
+                            See the creative work of our students after completing this course. Leave kudos and comments
+                            for your favor.
+                        </p>
+                    </div>
+                    <div class="block-content-flexible-grid">
+                        <img src="/images/about/portfolio-card-sample.png" alt="thumbnail of a student's creative work">
+                        <img src="/images/about/portfolio-card-sample.png" alt="thumbnail of a student's creative work">
+                        <img src="/images/about/portfolio-card-sample.png" alt="thumbnail of a student's creative work">
+                        <img src="/images/about/portfolio-card-sample.png" alt="thumbnail of a student's creative work">
+                    </div>
+                    <div class="block-action">
+                        <a class="button button-primary" href="/portfolio">View the portfolio ↗</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="contact-links">
+            <a title="Follow us on WeChat" href="https://leetcode.com/problemset/" class="social-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-wechat"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.176 14.429c-2.665 0-4.826-1.8-4.826-4.018 0-2.22 2.159-4.02 4.824-4.02S16 8.191 16 10.411c0 1.21-.65 2.301-1.666 3.036a.32.32 0 0 0-.12.366l.218.81a.6.6 0 0 1 .029.117.166.166 0 0 1-.162.162.2.2 0 0 1-.092-.03l-1.057-.61a.5.5 0 0 0-.256-.074.5.5 0 0 0-.142.021 5.7 5.7 0 0 1-1.576.22M9.064 9.542a.647.647 0 1 0 .557-1 .645.645 0 0 0-.646.647.6.6 0 0 0 .09.353Zm3.232.001a.646.646 0 1 0 .546-1 .645.645 0 0 0-.644.644.63.63 0 0 0 .098.356" />
+                    <path
+                        d="M0 6.826c0 1.455.781 2.765 2.001 3.656a.385.385 0 0 1 .143.439l-.161.6-.1.373a.5.5 0 0 0-.032.14.19.19 0 0 0 .193.193q.06 0 .111-.029l1.268-.733a.6.6 0 0 1 .308-.088q.088 0 .171.025a6.8 6.8 0 0 0 1.625.26 4.5 4.5 0 0 1-.177-1.251c0-2.936 2.785-5.02 5.824-5.02l.15.002C10.587 3.429 8.392 2 5.796 2 2.596 2 0 4.16 0 6.826m4.632-1.555a.77.77 0 1 1-1.54 0 .77.77 0 0 1 1.54 0m3.875 0a.77.77 0 1 1-1.54 0 .77.77 0 0 1 1.54 0" />
+                </svg>
+                <span>WeChat</span>
+            </a>
+            <a title="Follow us on TikTok" href="https://leetcode.com/problemset/" class="social-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
+                </svg>
+                <span>TikTok</span>
+            </a>
+            <a title="Follow us on Instagram" href="https://leetcode.com/problemset/" class="social-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                </svg>
+                <span>Instagram</span>
+            </a>
+            <a title="Contact us via email" href="https://leetcode.com/problemset/" class="social-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-envelope-at" viewBox="0 0 16 16">
+                    <path
+                        d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z" />
+                    <path
+                        d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648m-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z" />
+                </svg>
+                <span>Email: abcd123@gmail.com</span>
+            </a>
+        </div>
+        <p class="body body-small">
+            Copyright © 2024 Jingdezhen Ceramics. All rights reserved.
+        </p>
+    </footer>
+</body>
+
+</html>
