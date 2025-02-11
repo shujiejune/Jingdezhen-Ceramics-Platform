@@ -1,1 +1,1 @@
-My first full-stack project: build a website for Jingdezhen Ceramics from scratch.
+My first full-stack project: build a platform for learning and communicating about Jingdezhen Ceramics.
